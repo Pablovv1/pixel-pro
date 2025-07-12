@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Pro - Desarrollo Web Profesional</title>
+    <link rel="icon" type="image/png" href="img/FAVICON_pixel-pro.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="cookies.css">
+    <link rel="stylesheet" href="terms.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/FAVICON_pixel-pro.png" alt="Pixel Pro Logo" class="logo-img">
+            <span>Pixel Pro</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Desarrollo Web Profesional</h1>
+            <p>Transformamos tus ideas en experiencias digitales excepcionales</p>
+            <a href="#contacto" class="cta-button">Comienza tu proyecto</a>
+        </div>
+    </header>
+
+    <section id="servicios" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>HTML5 & CSS3</h3>
+                <p>Diseños modernos y responsivos con las últimas tecnologías web</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>Interactividad y dinamismo para tu sitio web</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p>Aplicaciones web modernas y escalables</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-node-js"></i>
+                <h3>Node.js</h3>
+                <p>Backend robusto y APIs personalizadas</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>Desarrollo de aplicaciones y análisis de datos</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-php"></i>
+                <h3>PHP</h3>
+                <p>Sistemas web dinámicos y CMS personalizados</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-java"></i>
+                <h3>Java</h3>
+                <p>Aplicaciones empresariales y Android</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-vuejs"></i>
+                <h3>Vue.js</h3>
+                <p>Interfaces de usuario modernas y reactivas</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-angular"></i>
+                <h3>Angular</h3>
+                <p>Aplicaciones web empresariales robustas</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-swift"></i>
+                <h3>Swift</h3>
+                <p>Desarrollo de aplicaciones iOS nativas</p>
+            </div>
+            <div class="service-card">
+                <i class="fab fa-database"></i>
+                <h3>SQL & NoSQL</h3>
+                <p>Bases de datos relacionales y no relacionales</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Flutter</h3>
+                <p>Aplicaciones móviles multiplataforma</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portafolio" class="portfolio">
+        <h2>Nuestro Portafolio</h2>
+        <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="web">Web</button>
+            <button class="filter-btn" data-filter="app">Apps</button>
+            <button class="filter-btn" data-filter="design">Diseño</button>
+        </div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="E-commerce">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>E-commerce Premium</h3>
+                            <p>Tienda online con React y Node.js</p>
+                            <div class="portfolio-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="App Móvil">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>App de Fitness</h3>
+                            <p>Aplicación móvil de seguimiento de ejercicios</p>
+                            <div class="portfolio-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                                <span>Redux</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="design">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Diseño UI/UX">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Diseño de Marca</h3>
+                            <p>Identidad visual y diseño de interfaz</p>
+                            <div class="portfolio-tags">
+                                <span>UI/UX</span>
+                                <span>Figma</span>
+                                <span>Branding</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Dashboard">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Dashboard Analytics</h3>
+                            <p>Panel de control con gráficos interactivos</p>
+                            <div class="portfolio-tags">
+                                <span>Vue.js</span>
+                                <span>D3.js</span>
+                                <span>Express</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="App Social">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Red Social</h3>
+                            <p>Plataforma social con chat en tiempo real</p>
+                            <div class="portfolio-tags">
+                                <span>Angular</span>
+                                <span>Socket.io</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="design">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Diseño Web">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Diseño Web</h3>
+                            <p>Landing page moderna y responsiva</p>
+                            <div class="portfolio-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="App iOS">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>App iOS Financiera</h3>
+                            <p>Aplicación de gestión financiera personal</p>
+                            <div class="portfolio-tags">
+                                <span>Swift</span>
+                                <span>Core Data</span>
+                                <span>UIKit</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="CMS">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>CMS Personalizado</h3>
+                            <p>Sistema de gestión de contenido empresarial</p>
+                            <div class="portfolio-tags">
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Laravel</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="App Android">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>App Android Empresarial</h3>
+                            <p>Aplicación de gestión de recursos</p>
+                            <div class="portfolio-tags">
+                                <span>Java</span>
+                                <span>Android SDK</span>
+                                <span>SQLite</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Análisis de Datos">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-info">
+                            <h3>Plataforma de Análisis</h3>
+                            <p>Sistema de análisis de datos en tiempo real</p>
+                            <div class="portfolio-tags">
+                                <span>Python</span>
+                                <span>Django</span>
+                                <span>PostgreSQL</span>
+                            </div>
+                            <a href="#" class="portfolio-link">Ver Proyecto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="testimonials">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="testimonials-container">
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"Pixel Pro transformó completamente nuestra presencia digital. Su equipo de desarrollo entregó un sitio web moderno y funcional que superó todas nuestras expectativas."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Cliente 1">
+                        <div class="author-info">
+                            <h4>Carlos Rodríguez</h4>
+                            <p>CEO, TechSolutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"La aplicación móvil desarrollada por Pixel Pro ha revolucionado la forma en que interactuamos con nuestros clientes. El rendimiento y la experiencia de usuario son excepcionales."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Cliente 2">
+                        <div class="author-info">
+                            <h4>María González</h4>
+                            <p>Directora de Marketing, InnovateApp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-card">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p>"El equipo de Pixel Pro demostró un profundo conocimiento técnico y una gran capacidad para entender nuestras necesidades. El resultado fue un e-commerce que ha aumentado nuestras ventas en un 200%."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Cliente 3">
+                        <div class="author-info">
+                            <h4>Juan Martínez</h4>
+                            <p>Fundador, FashionStore</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonials-controls">
+            <button class="prev-testimonial"><i class="fas fa-chevron-left"></i></button>
+            <div class="testimonials-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="next-testimonial"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>¡Hablemos de tu proyecto!</h3>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Av. Principal 123, Ciudad</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+123 456 7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@pixelpro.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <p>Lun - Vie: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder=" " required>
+                    <label for="name">Nombre</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder=" " required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder=" " required></textarea>
+                    <label for="message">Mensaje</label>
+                </div>
+                <button type="submit" class="submit-button">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Pixel Pro</h3>
+                <p>Desarrollo web profesional a tu alcance</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <p>Email: info@pixelpro.com</p>
+                <p>Tel: +123 456 7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Pixel Pro. Todos los derechos reservados.</p>
+            <a href="#" class="terms-link">Términos y Condiciones</a>
+        </div>
+    </footer>
+
+    <!-- Modal de Cookies -->
+    <div class="cookies-modal">
+        <button class="cookies-close">
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="cookies-header">
+            <i class="fas fa-cookie-bite cookies-icon"></i>
+            <h3 class="cookies-title">Política de Cookies</h3>
+        </div>
+        <div class="cookies-content">
+            <p class="cookies-text">
+                Utilizamos cookies para mejorar tu experiencia en nuestro sitio web. 
+                Al continuar navegando, aceptas nuestra política de cookies y el uso de estas tecnologías.
+            </p>
+        </div>
+        <div class="cookies-buttons">
+            <button class="cookies-accept">Aceptar</button>
+            <button class="cookies-settings">Configuración</button>
+        </div>
+    </div>
+
+    <!-- Modal de Términos y Condiciones -->
+    <div class="terms-overlay"></div>
+    <div class="terms-modal">
+        <div class="terms-header">
+            <h2 class="terms-title">Términos y Condiciones</h2>
+            <button class="terms-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="terms-content">
+            <div class="terms-section">
+                <h3>1. Aceptación de los Términos</h3>
+                <p>Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos y condiciones de uso.</p>
+            </div>
+            <div class="terms-section">
+                <h3>2. Uso del Servicio</h3>
+                <p>Nuestros servicios están diseñados para proporcionar soluciones de desarrollo web profesionales. Usted acepta:</p>
+                <ul>
+                    <li>Proporcionar información precisa y completa</li>
+                    <li>Mantener la confidencialidad de su cuenta</li>
+                    <li>No utilizar nuestros servicios para fines ilegales</li>
+                </ul>
+            </div>
+            <div class="terms-section">
+                <h3>3. Propiedad Intelectual</h3>
+                <p>Todos los derechos de propiedad intelectual relacionados con nuestro sitio web y servicios son propiedad de Pixel Pro.</p>
+            </div>
+            <div class="terms-section">
+                <h3>4. Limitación de Responsabilidad</h3>
+                <p>Pixel Pro no será responsable por daños indirectos, incidentales o consecuentes que resulten del uso o la imposibilidad de usar nuestros servicios.</p>
+            </div>
+            <div class="terms-section">
+                <h3>5. Modificaciones</h3>
+                <p>Nos reservamos el derecho de modificar estos términos en cualquier momento. Las modificaciones entrarán en vigor inmediatamente después de su publicación.</p>
+            </div>
+        </div>
+        <div class="terms-footer">
+            <button class="terms-button terms-decline">Rechazar</button>
+            <button class="terms-button terms-accept">Aceptar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="cookies.js"></script>
+    <script src="terms.js"></script>
+</body>
+</html>
